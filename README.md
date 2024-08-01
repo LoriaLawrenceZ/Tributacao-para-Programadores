@@ -1,5 +1,5 @@
 <div name="top-readme" align=center>
-  <h1>Tributacao para Programadores</h1>
+  <h1>Tributação para Programadores</h1>
 </div>
 
 Casa do Desenvolvedor | Tributacao para Programadores
