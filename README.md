@@ -15,3 +15,5 @@ Casa do Desenvolvedor | Tributacao para Programadores
 ---
 
 # Módulo 1 - Noções Tributárias
+
+> [PDF Módulo 1](assets/Modulo1.pdf)
