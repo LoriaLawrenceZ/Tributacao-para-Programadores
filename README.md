@@ -19,6 +19,42 @@ Casa do Desenvolvedor | Tributacao para Programadores
       - [Lei Complementar](#lei-complementar)
       - [Lei Delegada](#lei-delegada)
       - [Medidas Provisórias](#medidas-provisórias)
+  - [Aula 02. Definições, Classificações e Obrigações Tributárias](#aula-02-definições-classificações-e-obrigações-tributárias)
+    - [Definições](#definições)
+      - [Imposto](#imposto)
+      - [Taxas](#taxas)
+      - [Contribuição de Melhorias](#contribuição-de-melhorias)
+      - [Empréstimos Compulsórios](#empréstimos-compulsórios)
+    - [Classificação](#classificação)
+      - [Imposto direto](#imposto-direto)
+      - [Imposto Indireto](#imposto-indireto)
+    - [Obrigações Tributárias](#obrigações-tributárias)
+      - [Obrigação Tributária Principal](#obrigação-tributária-principal)
+      - [Obrigação Tributária Acessória](#obrigação-tributária-acessória)
+    - [Elementos](#elementos)
+      - [Lei](#lei)
+      - [Fato Gerador](#fato-gerador)
+      - [Sujeito Ativo](#sujeito-ativo)
+      - [Sujeito Passivo](#sujeito-passivo)
+      - [Base de Cálculo](#base-de-cálculo)
+  - [Aula 03. Competências Tributárias (Esferas)](#aula-03-competências-tributárias-esferas)
+    - [Primeira Esfera - FEDERAL](#primeira-esfera---federal)
+    - [Segunda Esfera - ESTADUAL](#segunda-esfera---estadual)
+    - [Terceira Esfera - MUNICIPAL](#terceira-esfera---municipal)
+  - [Aula 04. Fundamentação dos Códigos Fiscais](#aula-04-fundamentação-dos-códigos-fiscais)
+  - [Aula 05. Informações sobre os Web Services](#aula-05-informações-sobre-os-web-services)
+    - [Web Services da Secretaria da Fazenda (SEFAZ)](#web-services-da-secretaria-da-fazenda-sefaz)
+      - [Exemplos de Métodos](#exemplos-de-métodos)
+      - [Comunicação via SOAP](#comunicação-via-soap)
+      - [WSDL](#wsdl)
+    - [Manual da NFe](#manual-da-nfe)
+      - [Serviços Síncronos e Assíncronos](#serviços-síncronos-e-assíncronos)
+      - [Diferença entre Síncrono e Assíncrono](#diferença-entre-síncrono-e-assíncrono)
+    - [Exemplos de Uso do Serviço Assíncrono](#exemplos-de-uso-do-serviço-assíncrono)
+  - [Aula 06. Certificado Digital](#aula-06-certificado-digital)
+    - [Certificado Digital](#certificado-digital)
+    - [Para que serve um Certificado Digital](#para-que-serve-um-certificado-digital)
+    - [Tipos de Certificado Digital](#tipos-de-certificado-digital)
 
 ---
 
@@ -75,7 +111,7 @@ São medidas adotadas pelo presidente da república, em caso de urgência e rele
 
 ---
 
-## Aula 02. Definições, classificações e Obrigações Tributárias
+## Aula 02. Definições, Classificações e Obrigações Tributárias
 
 ### Definições
 
@@ -256,5 +292,41 @@ Para acessar o WSDL, copie o endereço (campo URL na tabela de listagem do porta
 <p>(<a href="top-readme">back to top</a>)</p>
 
 ## Aula 06. Certificado Digital
+
+> Credenciamento e Certificado Digital
+
+- Credenciamento != Homologação de Software  
+  - Homologação de Software = Submeter a rotina do software para saber se ele está apto a gerar um documento
+- Credenciamento = Liberação e Certificação Digital
+
+### Certificado Digital
+
+É um arquivo eletrônico que funciona de maneira semelhante a assinaturas, mas de maneira digital, a qual tem validade jurídica, e que garante proteção às transações eletrônicas e outros tipos de serviços via internet, onde pessoas físicas e jurídicas possuem identificação e assinatura única digitalmente, em qualquer lugar do mundo e com maior segurança e agilidade nas necessidades dos usuários.
+
+A utilização de certificado digital traz de mais moderno no que se diz em segurança para proteção de informações trocadas em ambientes virtuais. A tecnologia utilizada foi especialmente desenvolvida para essa finalidade, assim alcançando grandes níveis de segurança, autenticidade, confidencialidade e integridade das informações.
+
+### Para que serve um Certificado Digital
+
+O certificado digital existe para a facilitação e redução de tempo de atividades que podem ser resolvidos de forma online, que inicialmente são feitas presencialmente, de maneira prática e segura. Essas atividades estão como: reconhecimento de firmas, entrefa de documentos via online com verificação de garantia da autenticidade e proteção das informações.
+
+As principais atividades podem ser listadas como:
+
+- Assinatura e envio de documentos online.
+- Transações bancárias
+- Assinatura de notas fiscais
+- Garantia da validade jurídica de documentos
+- Login em sites com segurança
+- Redução de tempo na validação de documentos como reconhecimento de firma
+
+### Tipos de Certificado Digital
+
+- E-CNPJ: emitidos para empresas
+- E-CPF: emitidos para pessoas físicas
+
+E-CNPJ e E-CPF podem ter dois tipos:
+
+- **A1**: Certificado Digital A1 é um arquivo eletrônico que fica armazenado no computador do titular. Permite o uso simultâneo. Ele é gerado e armazenado em software, e tem validade de 1 ano.
+- **A3**: Certificado Digital A3 é um cartão ou token que armazena o certificado digital. Ele diferentemente do A1, não não permite o uso simultâneo. Tem validade de 1 a 3 anos.
+- 
 
 <p>(<a href="top-readme">back to top</a>)</p>
