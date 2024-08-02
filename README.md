@@ -154,6 +154,35 @@ Ato criados ou que institui o tributo, assim o que determina também aumento de 
 
 ## Aula 03. Competências Tributárias (Esferas)
 
+Esferas não interferem entre si, ou seja, não se sobrepõem.
+
+### Primeira Esfera - FEDERAL
+
+- IPI -> Imposto sobre Produtos Industrializados
+- PIS/PASEP -> Programa de Integração Social e de Formação de Patrimônio do Servidor Público
+- COFINS -> Contribuição para Financiamento da Seguridade Social
+- CIDE Combustível -> Contribuição de Intervenção no Domínio Econômico incidente sobre a importação e comercialização de COmbústivel e seus derivados.
+- IR -> Imposto de Renda
+- II -> Imposto sobre Importação
+- ITR -> Imposto sobre Território Rural
+- INSS -> Instituto Nacional do Seguro Social
+- CSLL - Contribuição sobre Lucro Líquido
+
+### Segunda Esfera - ESTADUAL
+
+- ICMS -> Imposto sobre Circulação de Mercadorias e Serviços
+- IPVA -> Imposto sobre Propriedade de Veículos Automotores
+- ITCMD -> Imposto de Transmissão Causa Mortis e Doação
+  - Inventário quando há tranferência de herança por exemplo
+- FCP -> Fundo de Combate à Pobreza
+  - Sobre operações de compra e venda de mercadoria (naqueles considerados supérfulos)
+
+### Terceira Esfera - MUNICIPAL
+
+- ISSQN -> Imposto sobre Serviços de Qualquer Natureza
+  - Qualquer serviço (pintura, manicure, etc.)
+- IPTU -> Imposto Predial Território Urbano
+
 <p>(<a href="top-readme">back to top</a>)</p>
 
 ## Aula 04. Fundamentação dos Códigos Fiscais
