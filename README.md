@@ -10,51 +10,22 @@ Casa do Desenvolvedor | Tributacao para Programadores
 
 ## 📌 Table of Contents
 
-- [Módulo 1 - Noções Tributárias](#módulo-1---noções-tributárias)
-  - [Aula 01. Hierarquia das Leis](#aula-01-hierarquia-das-leis)
-    - [Constituição Federal](#constituição-federal)
-    - [Emenda Constitucional](#emenda-constitucional)
-      - [Tratados e Convenções Internacionais](#tratados-e-convenções-internacionais)
-      - [Lei Ordinária](#lei-ordinária)
-      - [Lei Complementar](#lei-complementar)
-      - [Lei Delegada](#lei-delegada)
-      - [Medidas Provisórias](#medidas-provisórias)
-  - [Aula 02. Definições, Classificações e Obrigações Tributárias](#aula-02-definições-classificações-e-obrigações-tributárias)
-    - [Definições](#definições)
-      - [Imposto](#imposto)
-      - [Taxas](#taxas)
-      - [Contribuição de Melhorias](#contribuição-de-melhorias)
-      - [Empréstimos Compulsórios](#empréstimos-compulsórios)
-    - [Classificação](#classificação)
-      - [Imposto direto](#imposto-direto)
-      - [Imposto Indireto](#imposto-indireto)
-    - [Obrigações Tributárias](#obrigações-tributárias)
-      - [Obrigação Tributária Principal](#obrigação-tributária-principal)
-      - [Obrigação Tributária Acessória](#obrigação-tributária-acessória)
-    - [Elementos](#elementos)
-      - [Lei](#lei)
-      - [Fato Gerador](#fato-gerador)
-      - [Sujeito Ativo](#sujeito-ativo)
-      - [Sujeito Passivo](#sujeito-passivo)
-      - [Base de Cálculo](#base-de-cálculo)
-  - [Aula 03. Competências Tributárias (Esferas)](#aula-03-competências-tributárias-esferas)
-    - [Primeira Esfera - FEDERAL](#primeira-esfera---federal)
-    - [Segunda Esfera - ESTADUAL](#segunda-esfera---estadual)
-    - [Terceira Esfera - MUNICIPAL](#terceira-esfera---municipal)
-  - [Aula 04. Fundamentação dos Códigos Fiscais](#aula-04-fundamentação-dos-códigos-fiscais)
-  - [Aula 05. Informações sobre os Web Services](#aula-05-informações-sobre-os-web-services)
-    - [Web Services da Secretaria da Fazenda (SEFAZ)](#web-services-da-secretaria-da-fazenda-sefaz)
-      - [Exemplos de Métodos](#exemplos-de-métodos)
-      - [Comunicação via SOAP](#comunicação-via-soap)
-      - [WSDL](#wsdl)
-    - [Manual da NFe](#manual-da-nfe)
-      - [Serviços Síncronos e Assíncronos](#serviços-síncronos-e-assíncronos)
-      - [Diferença entre Síncrono e Assíncrono](#diferença-entre-síncrono-e-assíncrono)
-    - [Exemplos de Uso do Serviço Assíncrono](#exemplos-de-uso-do-serviço-assíncrono)
-  - [Aula 06. Certificado Digital](#aula-06-certificado-digital)
-    - [Certificado Digital](#certificado-digital)
-    - [Para que serve um Certificado Digital](#para-que-serve-um-certificado-digital)
-    - [Tipos de Certificado Digital](#tipos-de-certificado-digital)
+|                                            BRANCH                                             |                    Módulo                     |
+|:---------------------------------------------------------------------------------------------:|:---------------------------------------------:|
+|  [`modulo-1`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-1)  |         Módulo 1: Noções Tributárias          |
+|  [`modulo-2`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-2)  |           Módulo 2: Códigos Fiscais           |
+|  [`modulo-3`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-3)  |                Módulo 3: ICMS                 |
+|  [`modulo-4`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-4)  | Módulo 4: Partilha do ICMS, DIFAL, GNRE e FCP |
+|  [`modulo-5`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-5)  |       Módulo 5: Substituição Tributária       |
+|  [`modulo-6`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-6)  |                 Módulo 6: IPI                 |
+|  [`modulo-7`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-7)  |             Módulo 7: PIS/COFINS              |
+|  [`modulo-8`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-8)  |               Módulo 8: NFe 4.0               |
+|  [`modulo-9`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-9)  |             Módulo 9: CT-e/MDF-e              |
+| [`modulo-10`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-10) |               Módulo 10: NFC-e                |
+| [`modulo-11`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-11) |               Módulo 11: NFS-e                |
+| [`modulo-12`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-12) |                Módulo 12: SPED                |
+| [`modulo-13`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-13) |              Módulo 13: eSocial               |
+| [`modulo-14`](https://github.com/LoriaLawrenceZ/Tributacao-para-Programadores/tree/modulo-14) |             Módulo 14: EFD-Reinf              |
 
 ---
 
