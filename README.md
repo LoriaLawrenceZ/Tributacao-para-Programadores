@@ -206,6 +206,53 @@ Esferas não interferem entre si, ou seja, não se sobrepõem.
 
 ## Aula 05. Informações sobre os Web Services
 
+### Web Services da Secretaria da Fazenda (SEFAZ)
+
+Todo documento tem seu portal de consulta, onde é possível verificar a autenticidade do documento e consultar todas as informações para conectar aos Web Services.
+
+#### Exemplos de Métodos
+
+- **Inutilização de uma Nota Fiscal Eletrônica**: Método `NfeInutilizazao`
+- **Status do Serviço**: Método `NfeStatusServico`
+- **Autorização**: Método `NfeAutorizacao`
+
+#### Comunicação via SOAP
+
+A comunicação com o WebService é feita no formato SOAP, necessitando do arquivo WSDL.
+
+#### WSDL
+
+O WSDL é um arquivo XML que define a estrutura da comunicação com o servidor. Existem dois tipos de XML:
+
+1. **XML dos dados sendo passados**: Estrutura da nota fiscal, dados da nota fiscal.
+2. **XML da comunicação (SOAP)**
+
+Para acessar o WSDL, copie o endereço (campo URL na tabela de listagem do portal de WebService) e acesse em um computador com certificado digital instalado. Isso abrirá um arquivo com as instruções de conexão.
+
+### Manual da NFe
+
+#### Serviços Síncronos e Assíncronos
+
+**Serviço Síncrono**:
+- Fluxo de implementação onde a requisição do serviço é processada automaticamente e dá uma resposta na mesma requisição.
+- Utilizado para serviços que não exigem muito processamento, como o `NfeStatus`.
+
+**Serviço Assíncrono**:
+- Envia uma solicitação para o WebService e recebe um ticket ou recibo indicando que a solicitação foi recebida (não necessariamente processada).
+- O servidor coloca o processamento numa fila e, após um período, está disponível para consulta. É necessário disparar uma segunda requisição para saber o resultado do processamento da primeira requisição.
+- Utilizado para serviços que exigem mais processamento, como o envio de um lote de notas para a SEFAZ.
+
+#### Diferença entre Síncrono e Assíncrono
+
+- **Síncrono**: Resposta direta na primeira requisição.
+- **Assíncrono**: Envia a requisição, recebe um recibo, e depois de um tempo, consulta o recibo.
+
+### Exemplos de Uso do Serviço Assíncrono
+
+- Envio de um XML com um lote de notas para a SEFAZ.
+- O servidor coloca o processamento numa fila e retorna um recibo.
+- Após um tempo, consulta-se o recibo para verificar se todas as notas foram processadas.
+
 <p>(<a href="top-readme">back to top</a>)</p>
 
 ## Aula 06. Certificado Digital
