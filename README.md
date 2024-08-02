@@ -187,6 +187,21 @@ Esferas não interferem entre si, ou seja, não se sobrepõem.
 
 ## Aula 04. Fundamentação dos Códigos Fiscais
 
+- CFOP
+  - Código Fiscal de Operações e Prestações
+- CRT
+  - Código de Regime Tributário
+- CST
+  - Código de Situação Tributária
+- CSOSN
+  - Código de Situação da Operação no Simples Nacional
+- IR
+  - Imposto de Renda Pessoa
+- NCM
+  - Nomenclatura Comum do Mercosul
+- CEST
+  - Código Especificador da Substituição Tributária
+
 <p>(<a href="top-readme">back to top</a>)</p>
 
 ## Aula 05. Informações sobre os Web Services
