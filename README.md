@@ -15,6 +15,11 @@ Casa do Desenvolvedor | Tributacao para Programadores
 ## 📌 Table of Contents
 
 - [Aula 01. CFOP](#aula-01-cfop)
+  - [Primeiro Dígito](#primeiro-dígito)
+  - [Segundo Dígito](#segundo-dígito)
+  - [Terceiro e Quarto Dígito](#terceiro-e-quarto-dígito)
+  - [Observações](#observações)
+  - [Exemplos](#exemplos)
 - [Aula 02. CRT](#aula-02-crt)
 - [Aula 03. CST](#aula-03-cst)
 - [Aula 04. CST/CSOSN Tabela B](#aula-04-cstcsosn-tabela-b)
@@ -90,6 +95,33 @@ Se é dado como saída (venda), toda operação, todos os itens devem ser tratad
 <p>(<a href="#top-readme">back to top</a>)</p>
 
 # Aula 02. CRT
+
+> Código de Regime Tributário
+ 
+Define a tributação de cada estabelecimento que está emitindo o documento fiscal eletrônico.
+
+Estabelecimentos poderão ser:
+- Simples Nacional
+- Lucro Presumido
+- Lucro Real
+
+Se a empresa é contribuinte do Simples Nacional:
+- **1** | Simples Nacional - Será preenchido pelo contribuinte quando for optante pelo Simples Nacional
+- **2** | Simples Naciona - Excesso sublimite de receita bruta, será preenchido pelo contribuinte optante pelo Simples nacional que tiver ultrapassado o sublimite de receita bruta fixado pelo estado/DF e estiver impedido de recolher ICMS/ISS por esse regime (conforme art. 19 e 20 da Lei Complementar 123/06)
+- **3** | Regime Normal - Será preenchido pelo contribuinte que não estiver na situação 1 ou 2.
+
+## Onde é informado o CRT? Qual campo?
+
+Campo **<CRT>**, colocando a classificação da empresa que está emitindo o documento fiscal (1, 2 ou 3).
+
+- CRT 1 | Deve utilizar situação tributária informando CSOSN
+- CRT 2, CRT 3  | Deve utilizar situação tributária informando CST
+
+## Exemplo
+
+![img.png](assets/images/img_3.png)
+
+![img_1.png](assets/images/img_4.png)
 
 # Aula 03. CST
 
