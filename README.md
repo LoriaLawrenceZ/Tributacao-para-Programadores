@@ -23,9 +23,13 @@ Casa do Desenvolvedor | Tributacao para Programadores
 - [Aula 02. CRT](#aula-02-crt)
   - [Onde é informado o CRT? Qual campo?](#onde-é-informado-o-crt-qual-campo)
   - [Exemplo](#exemplo)
-- [Aula 03. CST/CSOSN Tabela A](#aula-03-cstcsosn-tabela-a)
-- [Aula 04. CST/CSOSN Tabela B](#aula-04-cstcsosn-tabela-b)
-- [Aula 05. CSOSN](#aula-05-csosn)
+- [Aula 03. CST Tabela A](#aula-03-cst-tabela-a)
+  - [Tabela A | Origem da Mercadoria](#tabela-a--origem-da-mercadoria)
+  - [Exemplo](#exemplo-1)
+- [Aula 04. CST Tabela B](#aula-04-cst-tabela-b)
+  - [Tabela B | Tributação pelo ICMS](#tabela-b--tributação-pelo-icms)
+  - [Exemplo](#exemplo-2)
+- [Aula 05. CSOSN Tabela B](#aula-05-csosn-tabela-b)
 - [Aula 06. NCM](#aula-06-ncm)
 
 ---
@@ -127,7 +131,7 @@ Campo **<CRT>**, colocando a classificação da empresa que está emitindo o doc
 
 <p>(<a href="#top-readme">back to top</a>)</p>
 
-# Aula 03. CST/CSOSN Tabela A
+# Aula 03. CST Tabela A
 
 > Código de Situação Tributária
 
@@ -135,6 +139,8 @@ Composto por dois números, mas recebe obrigatóriamente um número inicial.
 
 - Primeiro Número | Origem da mercadoria ([Tabela A](#tabela-a-origem-da-mercadoria))
 - Segundo e Terceiro Número | Tributação do ICSM
+
+Tag **<orig>**
 
 ## Tabela A | Origem da Mercadoria
 
@@ -154,9 +160,57 @@ Composto por dois números, mas recebe obrigatóriamente um número inicial.
 
 ![img.png](assets/images/img_5.png)
 
-# Aula 04. CST/CSOSN Tabela B
+# Aula 04. CST Tabela B
 
-# Aula 05. CSOSN
+> CST | Código de Situação Tributária
+> CSOSN | Código de Situação da Operação no Simples Nacional
+
+CSOSN é utilizado pelas empresas optantes do Simples Nacional (CRT 1)
+
+Origem do CST e CSOSN é o mesmo ([Tabela A](#tabela-a-origem-da-mercadoria))
+
+## Tabela B | Tributação pelo ICMS
+
+- 00 | Tributada integralmente
+  - Tributação vai se dar totalmente sobre o item (sem redução ou isenção)
+- 10 | Tributada e com cobrança do ICMS por substituição tributária
+  - Esse item da nota fiscal tem uma substituição tributária, ou seja, imposto vai ser retido e recolhido anteriormente, e então repassado para o estado destino.
+- 20 | Com redução de base de cálculo
+  - Estado concedeu esse benefício fiscal para esse item da nota fiscal. Deve colocar o percentual de redução definido pelo estado na nota fiscal.
+- 30 | Isenta ou não tributada e com cobrança do ICMS por substituição tributária
+  - Não tem tributação pelo ICMS próprio, mas tem cobrança da substituição tributária.
+- 40 | Isenta
+  - Totalmente isenta. Não tem tributação.
+  - Deve informar o motivo da isenção nas **informações adicionais** (amparo legal que deixa fazer).
+- 41 | Não tributada
+  - Ocorre o mesmo que a isenção, mas não tem motivo legal para isenção.
+- 50 | Suspensão
+  - Ocorre quando a mercadoria é suspensa de tributação, mas não é isenta.
+- 51 | Diferimento
+  - Imposto não deixa de ser recolhido, ele é diferido para o momento seguinte.
+  - Naquela etapa não vai haver o destaque.
+  - Deve informar o amparo legal nas **informações adicionais**
+  - Geralmente ocorrem no próprio estado
+- 60 | ICMS cobrado anteriormente por substituição tributária
+  - Ocorre quando adquire a mercadoria diretamente da indústria (ou de um distribuidor) cujo imposto foi retido anteriormente por substituição tributária.
+  - Não tem a retenção do imposto, mas já foi recolhido anteriormente pelo fornecedor.
+  - Algumas UF exige que o contribuinte coloque o valor, base de cálculo e alíquota do imposto que foi retido anteriormente.
+    - Em geral, informações de produtos que vem com o CST 10
+- 70 | Com redução de base de cálculo e cobrança do ICMS por substituição tributária
+  - Ocorre quando o estado concede redução de base de cálculo e tem a substituição tributária.
+  - Deve informar o benefício concedido pelo Estado no campo de informações adicionais.
+- 90 | Outros
+  - Qualquer outra situação que não se enquadra nas anteriores.
+
+## Exemplo
+
+![img.png](assets/images/img_6.png)
+
+![img.png](assets/images/img_5.png)
+
+Tag **<CST>** ou **<CSOSN>** vêm logo após a tag **<orig>**
+
+# Aula 05. CSOSN Tabela B
 
 # Aula 06. NCM
 
