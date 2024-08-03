@@ -259,6 +259,41 @@ Esse código vem do preenchimento do CRT exclusivamente quando for igual a 1 (**
 
 <p>(<a href="#top-readme">back to top</a>)</p>
 
-# Aula 06. NCM
+# Aula 06. NCM | CEST
+
+## NCM
+
+> Nomenclatura Comum do Mercosul
+
+Contendo **8 dígitos**, é utilizado em todo Mercosul para identificar os produtos dos mais variados gêneros, criando assim uma classificação padrão para comprars e vendas e determinando as alíquotas aplicáveis dos tributos sobre esse produto. A lista completa pode ser analisada através do Download da Tabela do NCM do site da Receita Federal.
+
+Determina toda tributação em relação ao IPI e toda codificação daquele produto.
+
+Se não informado, Nota Fiscal é rejeitada. Se informado errado, gerará problemas pois trabalha atrelado ao CEST.
+
+Vai ter o código definido com base na TIPI (Tabela do IPI)
+
+Há a tag **<NCM>** em cada item para informar o NCM
+
+### Exemplo
+
+| NCM        | Descrição                         | TEC(%) |
+|:-----------|:----------------------------------|:------:|
+| 0101       | Cavalos, asininos e muares, vivos |        |
+| 0101.2     | Cavalos                           |        |
+| 0101.21.00 | Reprodutores de raça pura         |   0    |
+| 0101.29.00 | Outros                            |   2    |
+| 0101.30.00 | Asininos                          |   4    |
+| 0101.90.00 | Muares                            |   4    |
+
+![img.png](assets/images/img_8.png)
+
+## CEST
+
+> Código Especificador da Substituição Tributária
+
+Compartilhar uma forma geral de definição de produtos que têm substituição tributária.
+
+Trabalha paralelamente ao NCM.
 
 <p>(<a href="#top-readme">back to top</a>)</p>
