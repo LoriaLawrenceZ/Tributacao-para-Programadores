@@ -21,7 +21,9 @@ Casa do Desenvolvedor | Tributacao para Programadores
   - [Observações](#observações)
   - [Exemplos](#exemplos)
 - [Aula 02. CRT](#aula-02-crt)
-- [Aula 03. CST](#aula-03-cst)
+  - [Onde é informado o CRT? Qual campo?](#onde-é-informado-o-crt-qual-campo)
+  - [Exemplo](#exemplo)
+- [Aula 03. CST/CSOSN Tabela A](#aula-03-cstcsosn-tabela-a)
 - [Aula 04. CST/CSOSN Tabela B](#aula-04-cstcsosn-tabela-b)
 - [Aula 05. CSOSN](#aula-05-csosn)
 - [Aula 06. NCM](#aula-06-ncm)
@@ -123,7 +125,34 @@ Campo **<CRT>**, colocando a classificação da empresa que está emitindo o doc
 
 ![img_1.png](assets/images/img_4.png)
 
-# Aula 03. CST
+<p>(<a href="#top-readme">back to top</a>)</p>
+
+# Aula 03. CST/CSOSN Tabela A
+
+> Código de Situação Tributária
+
+Composto por dois números, mas recebe obrigatóriamente um número inicial.
+
+- Primeiro Número | Origem da mercadoria ([Tabela A](#tabela-a-origem-da-mercadoria))
+- Segundo e Terceiro Número | Tributação do ICSM
+
+## Tabela A | Origem da Mercadoria
+
+| Código | Descrição                                                                                                             |
+|:------:|:----------------------------------------------------------------------------------------------------------------------|
+|   0    | Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8                                                                 |
+|   1    | Estrangeira - Importação Direta, exceto a indicada no código 6                                                        |
+|   2    | Estrangeira - Adquirida no Mercado Interno, exceto a indicada no código 7                                             |
+|   3    | Nacional, Mercadoria ou Bem com Conteúdo de Importação superior a 40% e infoerior ou igual a 70%                      |
+|   4    | Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos de acordo com o Decr. Lei 288/67 |
+|   5    | Nacional, Mercadoria ou Bem com Conteúdo de Importação Inferior ou Igual a 40%                                        |
+|   6    | Estrangeira - Importação Direta, sem similar nacional, constante em lista de Resolução CAMEX e gás natural            |
+|   7    | Estrangeira - Adquirida no Mercado Interno, sem similar nacional, constante em lista de Resolução CAMEX e gás natural |
+|   8    | Nacional, Mercadoria ou BEm com Conteúdo de Importação Superior a 70%                                                 |
+
+## Exemplo
+
+![img.png](assets/images/img_5.png)
 
 # Aula 04. CST/CSOSN Tabela B
 
