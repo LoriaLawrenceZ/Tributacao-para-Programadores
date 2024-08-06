@@ -291,9 +291,54 @@ Há a tag **<NCM>** em cada item para informar o NCM
 ## CEST
 
 > Código Especificador da Substituição Tributária
+ 
+Formado por 7 dígitos, foi criado com intuito de uniformizar e identificar as mercadorias e bens possíveis de sujeição ao regime de Substituição Tributária do ICMS. 
 
-Compartilhar uma forma geral de definição de produtos que têm substituição tributária.
+Não possui data definida até o momento para sua obrigatoriedade onde servirá para todos os contribuintes do ICMS que emitem NF-e e NFC-e e comercializem produtos constantes da tabela do Convênio ICMS 92/2015.
+
+Entrou em vigor, a partir de 1º de janeiro de 2019, o Convênio 142/2018, o qual revoga o Convênio ICMS 52/2017, de 7 de abril de 2017. Através do novo COnvênio, ficam dispostos os bens e mercadorias passíveis de sujeição ao regime de substituição tributária, identificados nos Anexos II ao XXVI.
+
+Os itens estão listados de acordo com o segmento no qual enquadram-se, a partir de sua descriç~~ao, NCM e CEST. Lembrando que a descrição do item deve reproduzir a correspondente descrição do código e posição da NCM, sendo aplicada a Substituição Tributária somente aos bens e mercadorias identificadas neste convênio.
 
 Trabalha paralelamente ao NCM.
+
+### Composição
+
+| ITEM |   CEST    |   NCM/SH   | DESCRIÇÃO                                                        |
+|:----:|:---------:|:----------:|:-----------------------------------------------------------------|
+| 1.0  | 01.001.00 | 3815.12.10 | Catalisadores em colmeia cerâmica ou metálica para conversão     |
+| 1.0  | 01.001.00 | 3815.12.90 | Catalítica de gases de escape de veículos e outros catalizadores |
+
+`01.001.00`
+- `01`
+  - O 1º e 2º correspondem ao segmento da mercadoria ou bem
+- `001`
+  - O 3º ao 5º correspondem ao item de um segmento de mercadoria ou bem
+- `00`
+  - O 6º e 7º correspondem à especificação do item
+
+### Relações
+
+Relações onde os códigos do CST's e CSOSN's devem ser usados.
+
+|  CST  | Onde Usar                                                                     |
+|:-----:|:------------------------------------------------------------------------------|
+| `10`  | Tributada com cobraça de ICMS por substituição tributária                     |
+| `30`  | Isenta ou não tributada com cobrança de ICMS por substituição tributária      |
+| `60`  | ICMS cobrado anteriormente por substituição tributária                        |
+| `70`  | Com redução de base de cálculo e cobrança de ICMS por substituição tributária |
+| `90`  | Outros, desde que lançado na tag `<vICMSST>`                                  |
+
+| CSOSN | Onde Usar                                                                                                          |
+|:-----:|:-------------------------------------------------------------------------------------------------------------------|
+| `201` | Tributada pelo Simples Nacional com permissão de crédito e com cobrança de ICMS por substituição tributária        |
+| `202` | Tributada pelo Simples Nacional sem permissão de crédito e com cobrança de ICMS por substituição tributária        |
+| `203` | Isenção do ICMS no Simples Nacional para faixa de receita bruta e com cobrança de ICMS por substituição tributária |
+| `500` | ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação                            |
+| `900` | Outros, desde que lançado na tag `<vICMSST>`                                                                       |
+
+### Exemplo
+
+![img.png](assets/images/img_9.png)
 
 <p>(<a href="#top-readme">back to top</a>)</p>
